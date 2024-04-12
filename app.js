@@ -15,7 +15,7 @@ app.use(express.json());
   
   app.use(cors())
 
-mongoose.connect("mongodb+srv://vish:Zekrom9740@cluster0.k5pane6.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("url")
 .then(() =>{
     console.log("Db is on");
 })
